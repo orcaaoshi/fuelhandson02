@@ -20,7 +20,8 @@ class Controller_Demo extends Controller
 			2 => '2nd',
 			3 => '3rd'
 		);
-		if ($id === null) $id = 1;
+		$id = (int) $id;
+		if ($id === 0) $id = 1;
 		if ($id > 3) $id = 3;
 		$data = array('text' => $list[$id]);
 		
