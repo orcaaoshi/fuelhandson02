@@ -7,5 +7,6 @@ return array(
 	
 	'showdata' => 'demo/showdata',
 	'select/(:any)' => 'demo/select/$1',
-	
+	'select/' => 'demo/select/',
+	'select' => 'demo/select/',
 );
