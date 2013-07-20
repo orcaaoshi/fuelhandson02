@@ -4,4 +4,8 @@ return array(
 	'_404_'   => 'welcome/404',    // The main 404 route
 	
 	'hello(/:name)?' => array('welcome/hello', 'name' => 'hello'),
+	
+	'showdata' => 'demo/showdata',
+	'select/(:any)' => 'demo/select/$1',
+	
 );
